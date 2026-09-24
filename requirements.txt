@@ -1,0 +1,15 @@
+# LiuHaiTV 依赖清单
+# 环境: conda create -n liuhaitv python=3.11.7
+# 另需自备播放内核 bin/libmpv-2.dll（不在仓库里，下载地址见 README）
+
+# --- GUI ---
+PySide6==6.11.2
+
+# --- 播放器内核 (需配合 bin/libmpv-2.dll) ---
+python-mpv==1.0.8
+
+# --- 网络/异步 ---
+httpx==0.28.1
+
+# --- 数据库 ---
+SQLAlchemy==2.0.54
