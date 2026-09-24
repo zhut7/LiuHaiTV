@@ -16,6 +16,7 @@ __pycache__/
 build/
 dist/
 protable/
+protable.rar
 # 成品压的包；要分发给别人请走 GitHub Release，别塞进仓库
 *.rar
 *.zip
